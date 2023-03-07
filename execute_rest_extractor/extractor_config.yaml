@@ -14,7 +14,7 @@ cognite:
     scopes:
       - ${COGNITE_BASE_URL}/.default
   extraction_pipeline:
-    external-id: "ice-cream-api:opcua:datapoints"
+    external-id: "csv:opcua:datapoints"
 
 api:
   url: https://ice-cream-factory.inso-internal.cognite.ai
@@ -47,6 +47,5 @@ frontfill:
   enabled: True
   continuous: False
   lookback-min: 60
-
 
 oee_timeseries_dataset_ext_id: src:002:opcua:ds
